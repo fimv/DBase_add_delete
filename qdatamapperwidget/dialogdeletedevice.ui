@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogDeleteDevice</class>
+ <widget class="QDialog" name="DialogDeleteDevice">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>148</y>
+     <width>102</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MAC-адрес</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="previousButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>176</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Предыдущий</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>120</y>
+     <width>102</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP-адрес</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="HostnameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>92</y>
+     <width>192</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>92</y>
+     <width>102</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Имя Компьютера</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="IPAddressLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>120</y>
+     <width>192</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextButton">
+   <property name="geometry">
+    <rect>
+     <x>249</x>
+     <y>176</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Следующий</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="MACLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>148</y>
+     <width>192</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>210</y>
+     <width>300</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>60</y>
+     <width>102</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Удаление записи</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>210</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Искать</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
